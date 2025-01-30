@@ -1,0 +1,24 @@
+@layer base, layout, components, utilities;
+
+/* Uncomment or add imports as you use files */
+/* CSS Files are ran top to bottom in the order they appear in this file */
+
+
+
+
+@import "base/normalize.css" layer(base);
+@import "base/variables.css" layer(base);
+@import "base/typography.css" layer(base);
+/* @import "base/animation.css" layer(base); */
+@import "base/global.css" layer(base);
+@import "base/forms.css" layer(layout);
+
+
+/* @import "layout/header.css" layer(layout); */
+/* @import "layout/footer.css" layer(layout); */
+
+
+/* @import "components/api-response.css" layer(components); */
+
+
+/* @import "utilities/utilities.css" layer(utilities); */
