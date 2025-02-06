@@ -1,0 +1,19 @@
+header {
+    width:100vw;
+    left:0;
+    top:0;
+    position:fixed;
+    align-items: left;
+    background-color: #333333;
+
+    h2 {
+        margin: 5px;
+        width:fit-content;
+    }
+
+    .menu-bar{
+        display: flex;
+        gap:10px;
+        margin: 0 10px;
+    }
+}
